@@ -1,5 +1,5 @@
-# NTNU EE Operation System
-NTNU EE Operation System Course (2020 Spring)
+# NTNU EE Operating System
+NTNU EE Operating System Course (2020 Spring)
 
 ## Outline 
 |Week|Title|
