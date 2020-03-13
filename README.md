@@ -28,4 +28,4 @@ NTNU EE Operation System Course (2020 Spring)
 * [Note](Week1/NOTE.md)
 #### Week-2
 * [Note](Week2/NOTE.md)
-* [hw1](Week2/hw/int2bin.c)
+* [hw1](Week2/HW1/int2bin.c)
