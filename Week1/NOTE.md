@@ -7,4 +7,14 @@
 
 3. Use Ubuntu on VirtualBox
 
-4. `sudo apt-get install vim` and `sudo apt-get install gcc`
+## Write a Program with VIM
+* 安裝vim : `sudo apt install vim`
+* 安裝gcc : `sudo apt install gcc`
+* 建立子目錄lab1 : `mkdir lab1`
+* 進入子目錄 : `cd lab1`
+* 啟動vim編輯test.c : `vim test.c`
+* 查看目錄內容 : `ls`
+* 編譯test.c : `gcc test.c -o test`
+* 執行test : `./test`
+* 編譯test.c : `gcc -Wall –g –o test test.c`
+* 啟動gdb : `gdb -q test`
