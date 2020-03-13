@@ -25,7 +25,7 @@ NTNU EE Operation System Course (2020 Spring)
 
 ## Schedule
 #### Week-1
-* Introduction
+* [Note](Week1/NOTE.md)
 #### Week-2
-* [NOTE](Week2/NOTE.md)
+* [Note](Week2/NOTE.md)
 * [hw1](Week2/hw/int2bin.c)
