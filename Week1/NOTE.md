@@ -7,4 +7,4 @@
 
 3. Use Ubuntu on VirtualBox
 
-4. `sudo apt-get install vim` `sudo apt-get install gcc`
+4. `sudo apt-get install vim` and `sudo apt-get install gcc`
