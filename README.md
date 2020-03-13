@@ -22,3 +22,10 @@ NTNU EE Operation System Course (2020 Spring)
 |Week-16|FinalExam|
 |Week-17|Flexible Course I|
 |Week-18|Flexible Course II|
+
+## Schedule
+#### Week-1
+* Introduction
+#### Week-2
+* [NOTE](Week2/NOTE.md)
+* [hw1](Week2/hw/int2bin.c)
