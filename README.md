@@ -29,3 +29,7 @@ NTNU EE Operating System Course (2020 Spring)
 #### Week-2
 * [Note](Week2/NOTE.md)
 * [hw1](Week2/HW1/int2bin.c)
+#### Week-3
+* [Note](Week3/NOTE.md)
+* [hw2-1](Week2/HW2/copy.c)
+* [hw2-2](Week2/HW2/endian.c)
