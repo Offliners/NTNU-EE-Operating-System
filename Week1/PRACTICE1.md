@@ -1,5 +1,6 @@
 # Practice 1
-## Hello VIM
+### Hello VIM
+使用VIM寫一個簡單的C程式，並使用gcc編譯並執行
 ```c
 #include<stdio.h>
 
