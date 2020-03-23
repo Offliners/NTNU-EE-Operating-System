@@ -254,6 +254,7 @@ int main()
 [code](quiz4.c)
 
 ### Quiz5
+Try to using shared memory
 ```C
 #include <stdio.h>
 
@@ -297,3 +298,4 @@ int main(void)
 
 }
 ```
+[code](quiz5.c)
