@@ -32,3 +32,5 @@ NTNU EE Operating System Course (2020 Spring)
 #### Week-3
 * [Practice](Week3/PRACTICE3.md)
 * [Homework](Week3/HOMEWORK2.md)
+#### Week-4
+* [Practice](Week4/PRACTICE4.md)
