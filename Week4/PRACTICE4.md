@@ -88,37 +88,24 @@ int main()
 What is the result?
 ```C
 #include <sys/types.h>
-
 #include <stdio.h>
-
 #include <unistd.h>
-
 #include <wait.h>
 
 int value = 5;
 
 int main(){
-
         pid_t pid;
-
         pid = fork();
-
+        
         if(pid == 0){
-
                 value += 15;
-
         }
-
         else{
-
                 wait(NULL);
-
                 printf("Parent: value: %d\n", value);
-
         }
-
         return 0;
-
 }
 ```
 [code](quiz1.c)
@@ -127,47 +114,29 @@ int main(){
 What are the values of lines A, B, C, and D?
 ```C
 #include <sys/types.h>
-
 #include <stdio.h>
-
 #include <unistd.h>
-
 #include <wait.h>
 
 int main(){
-
         pid_t pid, pid1;
-
         pid = fork();
 
         if(pid<0){
-
                 fprintf(stderr, "Fork failed");
-
                 return 1;
-
         }
-
         else if(pid == 0){
-
                 pid1 = getpid();
-
                 printf("child: pid = %d\n", pid);//Line A
-
                 printf("child: pid1 = %d\n", pid1);//Line B
-
         }
-
         else{
-
                 pid1 = getpid();
-
                 printf("parent: pid = %d\n", pid);//Line C
-
                 printf("parent: pid1 = %d\n", pid1);//Line D
-
+        
         wait(NULL);
-
         }
 }
 ```
@@ -177,25 +146,18 @@ int main(){
 How many processes are created?
 ```C
 #include <sys/types.h>
-
 #include <stdio.h>
-
 #include <unistd.h>
-
 #include <wait.h>
 
 int main(){
-
         int i;
 
         for(i=0; i<4; i++){
-
            fork();
-
         }
 
         return 0;
-
 }
 ```
 [code](quiz3.c)
@@ -204,9 +166,7 @@ int main(){
 What is the result?
 ```C
 #include <stdio.h>
-
 #include <sys/types.h>
-
 #include <unistd.h>
 
 #define SIZE 5
@@ -214,16 +174,10 @@ What is the result?
 int nums[SIZE] = {0,1,2,3,4};
 
 int main()
-
 {
-
   int i;
-
   pid_t pid;
-
   pid = fork();
-
- 
 
   if (pid == 0) {
 
