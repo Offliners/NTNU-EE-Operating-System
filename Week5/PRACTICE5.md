@@ -32,7 +32,7 @@ int main()
         return 0;
 }
 ```
-[code](producer.c)
+[code](producerAPI.c)
 
 ### Consumer Process
 ```C
@@ -57,7 +57,7 @@ int main()
         return 0;
 }
 ```
-[code](consumer.c)
+[code](consumerAPI.c)
 
 ### Quiz5
 Try to using shared memory
