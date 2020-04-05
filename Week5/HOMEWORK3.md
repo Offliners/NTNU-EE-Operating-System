@@ -1,5 +1,5 @@
 # Homework 3
-1.請用POSIX shared memory來實現producer process與comsumer process之間共享的circular buffer
+1. 請用POSIX shared memory來實現producer process與comsumer process之間共享的circular buffer
 
 2. producer每執行一次輸入一筆資料
 
