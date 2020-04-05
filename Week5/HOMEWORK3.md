@@ -1,7 +1,10 @@
 # Homework 3
 1.請用POSIX shared memory來實現producer process與comsumer process之間共享的circular buffer
+
 2. producer每執行一次輸入一筆資料
+
 3. comsumer每執行一次讀出一筆資料
+
 4. 解決circular buffer會少用到一個空間的問題
 
 #### Example code: initial share memory
