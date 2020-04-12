@@ -21,8 +21,8 @@ int main(int argc, char *argv[]) {
         double elapsedTime;
 
         for(i = 0; i < N; i++) {
-                A[i] = rand()%10;
-                B[i] = rand()%10;
+                A[i] = rand()%100;
+                B[i] = rand()%100;
         }
 
         clock_gettime( CLOCK_REALTIME, &t_start);
