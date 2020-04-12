@@ -11,12 +11,12 @@ int C[N];
 
 int goldenC[N];
 
-void *runner(void *param);
+void *runner(void *arg);
 
 int main(int argc, char *argv[]) {
         int i, j, k;
-        pthread_t tid[N];
-        pthread_attr_t attr[N];
+        pthread_t tid[MAX_THREAD];
+        pthread_attr_t attr[MAX_THREAD];
         struct timespec t_start, t_end;
         double elapsedTime;
 
