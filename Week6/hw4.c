@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N 120000
-#define MAX_THREAD 8
+#define N 100000000
+#define MAX_THREAD 4
 
 int A[N];
 int B[N];
