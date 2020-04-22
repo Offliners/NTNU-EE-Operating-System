@@ -157,5 +157,6 @@ void *runner(void *arg) {
 }
 ```
 [code](compare.c)
-
+#### Result
+* Hardware : `Intel(R) Core(TM) i5-7300HQ`
 ![compare](https://github.com/Offliners/NTNU-EE-Operating-System/blob/master/Week7/compare.png)
