@@ -82,3 +82,8 @@ void *runner(void *arg) {
 }
 ```
 [code](vectorAddpthread.c)
+
+#### Result
+![4pthread](https://github.com/Offliners/NTNU-EE-Operating-System/blob/master/Week6/4pthread.png)
+
+![8pthread](https://github.com/Offliners/NTNU-EE-Operating-System/blob/master/Week6/8pthread.png)
