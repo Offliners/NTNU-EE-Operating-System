@@ -13,7 +13,7 @@ for( i=0; i<N; i++ )
 }
 ```
 2. Please submit the report and the original code.
-#### Solution
+### Solution
 ```C
 #include <pthread.h>
 #include <stdio.h>
