@@ -84,6 +84,7 @@ void *runner(void *arg) {
 [code](vectorAddpthread.c)
 
 ### Result
+* Hardware : `Intel(R) Core(TM) i5-7300HQ`
 ![4pthread](https://github.com/Offliners/NTNU-EE-Operating-System/blob/master/Week6/4pthread.png)
 
 ![8pthread](https://github.com/Offliners/NTNU-EE-Operating-System/blob/master/Week6/8pthread.png)
