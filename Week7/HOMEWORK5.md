@@ -158,4 +158,4 @@ void *runner(void *arg) {
 ```
 [code](compare.c)
 
-![compare]()
+![compare](https://github.com/Offliners/NTNU-EE-Operating-System/blob/master/Week7/compare.png)
