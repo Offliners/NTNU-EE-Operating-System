@@ -13,7 +13,7 @@ for( i=0; i<N; i++ )
 }
 ```
 2. Please submit the report and the original code.
-### Solution
+### Compare
 ```C
 #include <pthread.h>
 #include <stdio.h>
@@ -158,5 +158,5 @@ void *runner(void *arg) {
 ```
 [code](compare.c)
 #### Result
-* Hardware : `Intel(R) Core(TM) i5-7300HQ`
+* CPU : `Intel(R) Core(TM) i5-7300HQ`
 ![compare](https://github.com/Offliners/NTNU-EE-Operating-System/blob/master/Week7/compare.png)
