@@ -130,3 +130,31 @@ void *thread(void *param)
 }
 ```
 [code](race_condition_semaphore.c)
+
+### race condition example in openmp
+下面這個例子在執行時，答案會有不正確的時候，這個問題稱為race condition。原因是多個執行緒同時修改同一個變數。
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <omp.h>
+#define N 10000
+int main(){
+    int n[N];
+    int i;
+	int total = 0;
+	
+	for(i=0; i < N; i++){
+		n[i] = i+1;  
+	}
+	
+	#pragma omp parallel for
+	for(i=0; i < N; i++){
+		total += n[i];
+	}
+	
+	printf("The total is %d\n", total);
+
+	return 0;
+}
+```
+[code](race_condition_openmp.c)
