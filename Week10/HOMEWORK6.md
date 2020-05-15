@@ -1,2 +1,2 @@
-# Homework 6
-Please solve Producer Consumer problem
+# Homework 6 : Producer Consumer Problem
+
