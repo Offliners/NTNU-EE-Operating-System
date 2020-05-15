@@ -133,3 +133,47 @@ int  main(){
 }
 ```
 [code](openMP2.c)
+
+### Find and fix the bug (II)
+```C
+#include <stdio.h>
+#include <omp.h>
+#define N 4
+
+int main(){
+	int i, j;
+
+	#pragma omp parallel for
+	for(i=0; i<N; i++){
+		for(j=0; j<N; j++){
+			printf("i:%d, j:%d\n", i, j);
+		}
+	}
+
+
+	return 0;
+}
+```
+[code](openMP3.c)
+
+#### Solution
+```C
+#include <stdio.h>
+#include <omp.h>
+#define N 4
+
+int main(){
+	int i, j;
+
+	#pragma omp parallel for private(i, j)
+	for(i=0; i<N; i++){
+		for(j=0; j<N; j++){
+			printf("i:%d, j:%d\n", i, j);
+		}
+	}
+
+
+	return 0;
+}
+```
+[code](openMP3_solution.c)
