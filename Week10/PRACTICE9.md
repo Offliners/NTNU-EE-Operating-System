@@ -214,3 +214,30 @@ int main(){
 }
 ```
 [code](race_condition_openmp_critical.c)
+
+### Solve Race Condition with OpenMP Clause
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <omp.h>
+#define N 10000
+int main(){
+    int n[N];
+    int i;
+	int total = 0;
+	
+	for(i=0; i < N; i++){
+		n[i] = i+1;  
+	}
+	
+	#pragma omp parallel for reduction(+:total)
+	for(i=0; i < N; i++){
+		total += n[i];
+	}
+	
+	printf("The total is %d\n", total);
+
+	return 0;
+}
+```
+[code](race_condition_openmp_clause.c)
