@@ -1,4 +1,5 @@
 # Homework 6 : Producer Consumer Problem
+Please solve Producer Consumer Problem
 ```C
 #include<stdio.h>
 #include<stdlib.h>
