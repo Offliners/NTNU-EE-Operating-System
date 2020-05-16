@@ -2,6 +2,7 @@
 ### Endian Checker
 Write a program on your virtual machine to test if your machine is little endian or big endian.
 
+#### Solution
 ```C
 #include<stdio.h>
 
@@ -26,6 +27,7 @@ int main()
 ### Copy file 
 Write a program to copy the contents of one file to a destination file. 
 
+#### Solution
 ```C
 #include<stdio.h>
 #include<unistd.h>
