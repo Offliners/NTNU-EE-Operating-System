@@ -4,7 +4,6 @@
 
 輸入的十進制數可以超出long long的最大值
 
-#### Solution
 ```C
 #include<stdio.h>
 #include<string.h>
