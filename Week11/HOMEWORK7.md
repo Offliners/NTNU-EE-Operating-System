@@ -6,3 +6,9 @@ You can input the number of allocated resources of every process, the number of 
 Furthermore, you can input the number of requested resources of process i.
 
 The output is safe state or unsafe state.
+
+### Solution
+```C
+
+```
+[code](banker-s-algorithm.c)
